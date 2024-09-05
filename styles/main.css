@@ -76,3 +76,47 @@ footer {
     color: #fff;
     text-align: center;
 }
+/* ... (keep all your existing CSS) ... */
+
+/* Add these new styles at the end of your CSS file */
+
+#spatial-audio-experiments {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+#spatial-audio-experiments #sketch1,
+#spatial-audio-experiments #sketch2 {
+    flex: 1;
+    min-width: 300px;
+    max-width: calc(50% - 10px);
+}
+
+/* #spatial-audio-experiments h2 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+} */
+
+/* #spatial-audio-experiments #canvas-container-1,
+#spatial-audio-experiments #canvas-container-2 {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    background-color: #f0f0f0;
+    margin-bottom: 10px;
+} */
+
+/* #spatial-audio-experiments .controls {
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+} */
+
+/* @media (max-width: 768px) {
+    #spatial-audio-experiments #sketch1,
+    #spatial-audio-experiments #sketch2 {
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+} */

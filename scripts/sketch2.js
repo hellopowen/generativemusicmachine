@@ -5,7 +5,7 @@ let sketch2 = function(p) {
     let isPlaying = false;
 
     p.setup = function() {
-        let canvas = p.createCanvas(400, 400);
+        let canvas = p.createCanvas(300, 300);
         canvas.parent('canvas-container-2');
 
         // Create a new audio context

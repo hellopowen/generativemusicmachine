@@ -10,7 +10,7 @@ let sketch3 = function(p) {
     let tailLength = 100;
 
     p.setup = function() {
-        let canvas = p.createCanvas(400, 400);
+        let canvas = p.createCanvas(300, 300);
         canvas.parent('canvas-container-3');
         p.colorMode(p.RGB, 255);
         p.strokeWeight(4);
@@ -97,6 +97,9 @@ let sketch3 = function(p) {
 
     function stopGenerating() {
         p.noLoop();
+        agents = [];
+        drawingActive = false;
+        points = [];
     }
 
     function resetSketch() {
